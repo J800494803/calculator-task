@@ -102,7 +102,7 @@ function CreateBooking() {
   };
 
   useEffect(() => {
-    getLocation();
+    getLocation()
   }, [])
 
 
