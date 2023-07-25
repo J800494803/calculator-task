@@ -102,8 +102,8 @@ function CreateBooking() {
   };
 
   useEffect(() => {
-    getLocation()
-  }, [])
+  //Runs on every render
+});
 
 
   return (
